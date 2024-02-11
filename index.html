@@ -6,19 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GTB HR</title>
     <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" >
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    
     <link rel="stylesheet" href="styles/mainStyles.css">
     <!--link rel="icon" href="./favicon.ico" type="image/x-icon"-->
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="navBar">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="navBar">
         <div class="container">
           <a class="navbar-brand" style="font-size:30px;" href="/">GTB-HR Sparring</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse flex-container" style="display: flex; justify-content: right" id="collapsibleNavbar" >
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse"  id="collapsibleNavbar" >
+            <ul class="nav navbar-nav ms-auto justify-content-end">
                     <li class="nav-item">
                       <a class="nav-link" href="/">Forside</a>
                     </li>
@@ -26,14 +28,13 @@
                       <a class="nav-link" href="om-mig">Om mig</a>
                     </li>
               <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Udbydelser</a>
-                        <ul class="dropdown-menu">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Udbydelser</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
                           <li> <a class="dropdown-item" href="hr-ledelse">HR og ledelses sparring</a></li>
                           <li><a class="dropdown-item" href="Bestyrelses-evaluering">Bestyrelses evaluering</a></li>
                           <li><a class="dropdown-item" href="ESG">ESG rapportering</a></li>
                         </ul>
                       </li>
-              
               <li class="nav-item">
                 <a class="nav-link" href="kontakt">Kontakt</a>
               </li>
@@ -92,9 +93,13 @@
         <div class="col-md-6 Services">
             <img alt="HR Management" src="images/project-manager-icon.svg"/>
             <h4>HR- og ledelses sparring</h4>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn klns</p>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn klnsknkdn klsn</p>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn </p>
+            <p>Dine medarbejders motivation og trivsel er nøglen til 
+               at lykkedes med at skabe økonomisk vækst.
+            Få kendskab til nemme og enkle værktøjer du som leder kan 
+               bruge til at skabe høj trivsel og engagement,
+            sænke medarbejderomsætningen samtidig med, at der skabes 
+               et godt samarbejde på tværs af organisationen.</p>
+            
             <a href="hr-ledelse">
                 <button>Læs mere</button>
             </a>
@@ -103,9 +108,10 @@
         <div class="col-md-6 Services">
             <img alt="Bestyrelses Evaluering" src="images/tester-icon.svg"/>
             <h4>Bestyrelses evaluering</h4>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn klns</p>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn klnsknkdn klsn</p>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn </p>
+            <p>Bæredygtig produktion, ansvarlig ledelse og anstændige jobs er blot nogle af de nøgleord der skal tages
+              stilling til, når der skal skabes økonomisk vækst og aflægges ESG regnskab. Få kendskab til hvilke
+              verdensmål I som virksomhed med fordel kan arbejde med, få lavet en brugbar handleplan og få et indblik i
+              hvilke nøgletal der kan rapporteres på. </p>
             <a href="Bestyrelses-evaluering">
                 <button>Læs mere</button>
             </a>
@@ -116,9 +122,9 @@
         <div class="col-md-6 Services">
             <img alt="ESG" src="images/globe-line-icon.svg"/>
             <h4>ESG Rapportering</h4>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn klns</p>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn klnsknkdn klsn</p>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn </p>
+            <p>Vidste du at over 50% af alle virksomhedsejere synes ikke at de får nok sparring fra deres bestyrelse?
+              Få en uvildig gennemgang af din bestyrelses kompetencer og profiler og så klarlagt hvilke kompetencer der
+              skal udvikles for at sikre vækst i din virksomhed.</p>
             <a href="ESG">
                 <button>Læs mere</button>
             </a>
@@ -127,9 +133,9 @@
         <div class="col-md-6 Services">
             <img alt="Questions" src="images/clipboard-question-icon.svg"/>
             <h4>Andre ydelser</h4>
-            <p>Har du brug for andet som ikke er nævnt så kontakt mig blah blag</p>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn klnsknkdn klsn</p>
-            <p>fdksfnkn ishf dksnf kldsl h sklnfd kldsb k nksn kdnsl ndksn </p>
+            <p>Fandt du ikke lige det du søgte?</p>
+            <p>Kontakt mig for en uforpligtende snak,<br>
+            om hvad der er brug for i netop din virksomhed</p>
             <a href="kontakt">
                 <button>Kontakt mig</button>
             </a>

@@ -50,11 +50,22 @@
 <style>
     .Services{
     padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 40px;
+
+
+    position: relative;
+    height: inherit;
+    
     }
     .Services h4, p{
     margin-bottom: 7px;
     float: none;
     text-align: center;
+    }
+    .Services p{
+      margin-bottom: 35px;
     }
     .Services img{
     height: 100px;
@@ -73,6 +84,14 @@
         color: #202428;
         height: 40px;
         width: 120px;
+
+
+    }
+    .buttonContainer{
+      position:absolute;
+        bottom: 0px;
+        width:100%;
+        left:0px;
     }
 
     .Services button:hover{
@@ -89,56 +108,78 @@
     <img alt="header" src="images/Header2.png" style="width:100%" />
 </div>
 <div class="container" style="margin-top:10px;">
-    <div class="row">
+    <div class="row" >
         <div class="col-md-6 Services">
             <img alt="HR Management" src="images/project-manager-icon.svg"/>
             <h4>HR- og ledelses sparring</h4>
-            <p>Dine medarbejders motivation og trivsel er nøglen til 
-               at lykkedes med at skabe økonomisk vækst.
-            Få kendskab til nemme og enkle værktøjer du som leder kan 
-               bruge til at skabe høj trivsel og engagement,
-            sænke medarbejderomsætningen samtidig med, at der skabes 
-               et godt samarbejde på tværs af organisationen.</p>
-            
-            <a href="hr-ledelse">
+            <div class="teaser">
+              <p>Dine medarbejders motivation og trivsel er nøglen til 
+                at lykkedes med at skabe økonomisk vækst.
+             Få kendskab til nemme og enkle værktøjer du som leder kan 
+                bruge til at skabe høj trivsel og engagement,
+             sænke medarbejderomsætningen samtidig med, at der skabes 
+                et godt samarbejde på tværs af organisationen.</p>
+            </div>
+            <div class="buttonContainer">
+              <a href="hr-ledelse">
                 <button>Læs mere</button>
             </a>
+            </div>
+            
             
         </div>
         <div class="col-md-6 Services">
             <img alt="Bestyrelses Evaluering" src="images/tester-icon.svg"/>
             <h4>Bestyrelses evaluering</h4>
-            <p>Bæredygtig produktion, ansvarlig ledelse og anstændige jobs er blot nogle af de nøgleord der skal tages
-              stilling til, når der skal skabes økonomisk vækst og aflægges ESG regnskab. Få kendskab til hvilke
-              verdensmål I som virksomhed med fordel kan arbejde med, få lavet en brugbar handleplan og få et indblik i
-              hvilke nøgletal der kan rapporteres på. </p>
-            <a href="Bestyrelses-evaluering">
-                <button>Læs mere</button>
-            </a>
+            <div class="teaser">
+              <p>Vidste du at over 50% af alle virksomhedsejere synes ikke at de får nok sparring fra deres bestyrelse?
+                Få en uvildig gennemgang af din bestyrelses kompetencer og profiler og så klarlagt hvilke kompetencer der
+                skal udvikles for at sikre vækst i din virksomhed.</p>
+            </div>
+          
+            <div class="buttonContainer">
+  <a href="Bestyrelses-evaluering">
+                  <button>Læs mere</button>
+              </a>
+            </div>
+            
         </div>
         
     </div>
-    <div class="row">
+    <div class="row" >
         <div class="col-md-6 Services">
             <img alt="ESG" src="images/globe-line-icon.svg"/>
             <h4>ESG Rapportering</h4>
-            <p>Vidste du at over 50% af alle virksomhedsejere synes ikke at de får nok sparring fra deres bestyrelse?
-              Få en uvildig gennemgang af din bestyrelses kompetencer og profiler og så klarlagt hvilke kompetencer der
-              skal udvikles for at sikre vækst i din virksomhed.</p>
-            <a href="ESG">
+            <div class="teaser">
+              <p>Bæredygtig produktion, ansvarlig ledelse og anstændige jobs er blot nogle af de nøgleord der skal tages
+                stilling til, når der skal skabes økonomisk vækst og aflægges ESG regnskab. Få kendskab til hvilke
+                verdensmål I som virksomhed med fordel kan arbejde med, få lavet en brugbar handleplan og få et indblik i
+                hvilke nøgletal der kan rapporteres på.</p>
+            </div>
+            
+            <div class="buttonContainer">
+<a href="ESG">
                 <button>Læs mere</button>
             </a>
+            </div>
+            
         </div>
         
         <div class="col-md-6 Services">
             <img alt="Questions" src="images/clipboard-question-icon.svg"/>
-            <h4>Andre ydelser</h4>
-            <p>Fandt du ikke lige det du søgte?</p>
-            <p>Kontakt mig for en uforpligtende snak,<br>
-            om hvad der er brug for i netop din virksomhed</p>
-            <a href="kontakt">
+            <h4 style="margin-bottom: 12px;">Andet</h4>
+            <div class="teaser">
+              <p style="margin-bottom: 7px;">Fandt du ikke lige det du søgte?</p>
+              <p>Kontakt mig for en uforpligtende snak om,<br>
+              hvad der er brug for i netop din virksomhed</p>
+            </div>
+          
+            <div class="buttonContainer">
+              <a href="kontakt">
                 <button>Kontakt mig</button>
             </a>
+            </div>
+            
         </div>
         
         

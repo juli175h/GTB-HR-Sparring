@@ -10,6 +10,22 @@
     <link rel="stylesheet" href="styles/mainStyles.css">
     <!--link rel="icon" href="./favicon.ico" type="image/x-icon"-->
   </head>
+  <style>
+    #headshot{
+      position:absolute;max-width:100%;max-height:100%; display: block;height: auto; float: right
+    }
+
+    @media screen and (max-width: 1200px) {
+      #headshot{
+        position: none;
+        width: 375px;
+        height: auto;
+        margin-bottom: 10px;
+      
+      }
+    }
+
+  </style>
   <body>
     
 
@@ -45,10 +61,11 @@
       </div>
     </nav>
 
-    <main  class="container pageContainer">
+    <main  class="container">
+      <div class="pageContainer">
         <H1>Om mig</H1>
         <div class="row" style="position:relative">
-            <div class="col-md-7">
+            <div class="col-lg-7 col-md-6">
                 <p>Jeg har siden 2006 arbejdet med at udvikle medarbejdere, da jeg finder det livsbekræftende at se
                   medarbejdere der trives og er motiverede for de opgaver de står overfor.</p>
                 <p>
@@ -75,12 +92,17 @@
                   problemstillinger du og din virksomhed måtte sidde inde med.
                 </p>
             </div>
-            <div class="col-md-5">
-                <img src="images/GitteBillede.jpg" alt="headshot" style="position:absolute;max-width:100%;max-height:100%; display: block;height: auto; float: right">
+            <div class="col-lg-5 col-md-6">
+                <img id="headshot" src="images/GitteBillede.jpg" alt="headshot">
             </div>
 
         </div>
+      </div>
+        
     </main>
-
+    <div class="footer fixed">
+      <div class="container ">
+        <p>&copy; 2024 | Gitte Thorsø Bramsen | CVR: 25207939 | mail: gbramsen@youmail.dk | tlf: +45 40 76 30 94</p>
+      </div>
   </body>
 </html>

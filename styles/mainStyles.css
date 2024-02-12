@@ -1,5 +1,9 @@
+html{
+  height: 100%
+}
 body{
   background-color: #F4F4F4;
+  min-height: 100%
   }
 
   .nav-link{
@@ -16,6 +20,19 @@ body{
   .pageContainer li li{
     margin-top: 0%;
   }
+
+  
+
+  .footer{
+    height: 60px;
+    background-color:#212529;
+    text-align: center;
+    padding: 10px;
+  }
+  .footer p{
+
+    color: #a1a1a1;
+  }
   
   
   @media screen and (max-width: 576px) {
@@ -23,19 +40,31 @@ body{
       margin-top: 100px;
     }
     
+    
 
 
   .container {
     margin: 2%;
   }
 
+
+
+
   }
     @media screen and (min-width: 577px) {
       .pageContainer{
         margin-top: 100px; 
+        position: absolute;
       }
       .pageBody{
         width: 75%;
+      }
+
+      .fixed{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: auto;
       }
 
     }
